@@ -1,0 +1,61 @@
+name: talabatee
+description: "A new Demo Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  flutter_screenutil:
+  font_awesome_flutter:
+  conditional_builder_null_safety:
+  flutter_svg: ^2.0.10+1
+  flutter_launcher_icons: ^0.13.1
+  logger:
+  fluttertoast: ^8.2.5
+  get_it:
+  easy_localization:
+  sqflite:
+  uuid:
+  path_provider:
+  persistent_bottom_nav_bar: ^5.0.2
+  flutter_fortune_wheel:
+  ionicons: ^0.2.2
+dev_dependencies:
+
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter_icons:
+  android: launcher_icon
+  ios: true
+  image_path: "assets/images/logo.png"
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translation/
+    - assets/images/products/
+    - assets/database/
+    - assets/fonts/
+  fonts:
+    - family: cairo
+      fonts:
+        - asset: assets/fonts/cairo.ttf
+
